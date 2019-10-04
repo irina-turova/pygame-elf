@@ -2,14 +2,14 @@ import sys
 
 import pygame
 
+from game import Game
+
 pygame.init()
+pygame.key.set_repeat(200, 70)
 
 FPS = 50
 WIDTH = 700
 HEIGHT = 700
-
-screen = pygame.display.set_mode((WIDTH, HEIGHT))
-clock = pygame.time.Clock()
 
 
 def terminate():
@@ -17,16 +17,7 @@ def terminate():
     sys.exit()
 
 
-running = True
-
-while running:
-
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-
-    pygame.display.flip()
-
-    clock.tick(FPS)
+game = Game(WIDTH, HEIGHT, FPS, ['levels/level1.txt', 'levels/level2.txt'])
+game.start()
 
 terminate()

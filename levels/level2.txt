@@ -1,0 +1,23 @@
+16 16
+10 10
+4
+4
+1 3
+2
+2 3
+wwfwwwwwwwfffffwww
+wwwwwwwwwwwwwwddww
+wfffwfffffwff2fffw
+wff1ffwfffwffffffw
+wfffffwffffffwwwfw
+wffffwfffffffffffw
+wffwwwwwwwwwfffffw
+wffwfffffffffffffw
+wfwffffffffffffffw
+wffwwffffwwwwwfffw
+wfffwffffwfffffffw
+wfffwfffwfff3ffffw
+wwffwfffwffffffffw
+wff4ffwfwffffffffw
+wffffffffffffffffw
+wwwwwwwwwwwwwwwwww
